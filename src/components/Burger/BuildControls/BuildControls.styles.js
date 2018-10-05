@@ -10,3 +10,7 @@ export const Controls = styled.div`
   margin: auto;
   padding: 10px 0;
 `;
+
+export const PriceContainer = styled.p`
+  width: 100%;
+`;
