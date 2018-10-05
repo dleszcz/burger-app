@@ -1,5 +1,5 @@
 import React from 'react';
-import { Controls, PriceContainer } from './BuildControls.styles';
+import { CheckoutButton, Controls, PriceContainer } from './BuildControls.styles';
 import BuildControl from './BuildControl/BuildControl';
 
 const controls = [
@@ -23,6 +23,7 @@ const BuildControls = (props) => {
         removed={() => props.ingredientRemoved(control.type)}
         disabled={props.disabled[control.type]}
       />)) }
+      <CheckoutButton disabled={!props.purchaseable}>Order now</CheckoutButton>
     </Controls>
   )
 }
