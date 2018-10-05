@@ -68,6 +68,20 @@ export const Seeds1 = styled.div`
     transform: rotate(10deg);
     box-shadow: inset 3px 0 #c9c9c9;
 
+    &:after {
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     background-color: white;
+     left: 160%;
+     top: -140%;
+     border-radius: 40%;
+     transform: rotate(60deg);
+     box-shadow: inset 1px 2px #c9c9c9;
+    }
+
+
     &:before {
       content: "";
       width: 100 %;

@@ -28,7 +28,7 @@ class BurgerIngredient extends Component {
       case('salad'):
         ingredient = <Salad />;
         break;
-      case('beacon'):
+      case('bacon'):
         ingredient = <Bacon />;
         break;
       default:
